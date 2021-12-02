@@ -4,18 +4,20 @@ public class Auto {
     public String marka;
     public String model;
     public int rok;
-    public  int przebieg;
+    public int przebieg;
 
     //definiujemy metody
-    public void jedz(){
+    public void jedz() {
+
         System.out.println("Jadę");
     }
 
-    public void  hamuj (){
+    public void hamuj() {
+
         System.out.println("Hamuję");
     }
 
-    public void info(){
+    public void info() {
         System.out.println("Marka: " + marka);
         System.out.println("Model: " + model);
         System.out.println("Przebieg: " + przebieg);
