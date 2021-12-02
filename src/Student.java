@@ -6,8 +6,11 @@ public class Student {
     public String email;
 
 
-    public void przedstawSie(){
+    public void przedstawSie() {
         System.out.println("Nazywam się " + imie + " " + nazwisko);
     }
 
+    public void podajAdresEmail() {
+        System.out.println("Podaj adres email " + email + nick);
+    }
 }
