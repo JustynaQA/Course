@@ -3,12 +3,17 @@ import java.util.Scanner;
 public class StudentChecker {
 
     public static void main(String[] args) {
+        //pole statyczne, nie jest unikalne dla obiektu, jest wspóldzielone przez wszystkie obiekty klasy
+        String uczelnia = Student.nazwaUczelni;
+        // metoda statyczna działa  tak samo jak pole statyczne
+        Student.infoUczelnia();
 
         Student uek = new Student();
         uek.imie = "uekimie ";
         uek.nazwisko = "ueknazwisko";
         uek.email = "uek@gmail.com, ";
         uek.nick = "uek";
+//        uek.infoUczelnia();
 
         Student agh = new Student();
         agh.imie = "aghimie ";

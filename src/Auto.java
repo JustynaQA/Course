@@ -6,6 +6,14 @@ public class Auto {
     public int rok;
     public int przebieg;
 
+    //konstruktor z podanymi paramentrami, tworzymy między polami, a metodami
+    public Auto(String marka, String model, int rok, int przebieg) {
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+    }
+
     //definiujemy metody
     public void jedz() {
 
