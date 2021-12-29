@@ -13,7 +13,7 @@ public class Konstruktory {
     public Konstruktory(String user, String pass){
         System.out.println("Hello od konstruktora");
     }
-
+     // metoda
     public void sayHello(){
         System.out.println("Hello, my name is: " + userName);
     };

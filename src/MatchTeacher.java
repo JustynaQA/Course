@@ -14,6 +14,11 @@ public class MatchTeacher extends Person {
         System.out.println("I am teaching math");
     }
 
+
+    public void walk() {
+        System.out.println("I walk very fast");
+    }
+
     public void sayHello() {
         System.out.println("hello my name is " + name);
         System.out.println("I am " + age);

@@ -8,6 +8,10 @@ public class Footballer extends Person {
         this.club = club;
     }
 
+    public void eat(){
+        System.out.println("I like healthy food");
+    }
+
     public void playFootbal() {
         System.out.println("i am playing footbal" + name + age + club);
     }
