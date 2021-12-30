@@ -16,6 +16,8 @@ public class MatchTeacher extends Person {
 
 
     public void walk() {
+        //wywołanie metody walk z klasy Person, słowa super umożliwia wywołanie pól i metod z klasy bazowej
+        super.walk();
         System.out.println("I walk very fast");
     }
 
