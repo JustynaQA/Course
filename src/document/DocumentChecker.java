@@ -1,14 +1,20 @@
 package document;
 
+import javax.print.Doc;
+
 public class DocumentChecker {
 
     public static void main(String[] args) {
-//        ExcelDocument document = new ExcelDocument();
-        Document excelDocument = new ExcelDocument();
-        Document pdfDocument = new PdfDocument();
-        //klasa bazowa ma typ klasy potomnej
+        // polimorfizm umożliwia deklarację nowego obiektu na dwa różne sposoby
+       Document excel1 = new ExcelDocument();
+       Document pdf1 = new PdfDocument();
 
-        excelDocument.getDescription();
-        pdfDocument.getDescription();
+        printDescription(excel1);
+        printDescription(pdf1);
+    }
+
+    public static void printDescription(Document document) {
+
+        document.getDescription();
     }
 }

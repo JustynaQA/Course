@@ -1,5 +1,5 @@
 package docs;
 
 public interface Document {
-    void detDescription();
+    void getDescription();
 }

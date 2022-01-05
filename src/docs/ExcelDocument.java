@@ -2,7 +2,7 @@ package docs;
 
 public class ExcelDocument implements Document{
     @Override
-    public void detDescription() {
+    public void getDescription() {
         System.out.println("Excel Document");
     }
 }

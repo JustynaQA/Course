@@ -8,13 +8,13 @@ public class ReadOnly {
 
     }
 
-    // settery - metoda umożliwiająca ustawienie wartości pola prywatnego
+    // settery - metoda umożliwiająca ustawienie wartości pola prywatnego, dzięki temu pole może być konfigurowane z zewnątrz przez inne klasy
 
     public void setName(String name) {
         this.name = name;
     }
 
-
+    // alt + insert umożliwia zrobienie getera i settera
 
 
 }
